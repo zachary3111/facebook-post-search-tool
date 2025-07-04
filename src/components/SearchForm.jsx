@@ -18,7 +18,7 @@ const SearchForm = () => {
 
     try {
       const response = await fetch(
-        `https://api.apify.com/v2/actor-tasks/dpqmAE2VNkdlofe4O/runs?token=${APIFY_TOKEN}`,
+        `https://api.apify.com/v2/acts/powerai~facebook-post-search-scraper/runs?token=${APIFY_TOKEN}`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
