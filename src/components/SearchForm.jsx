@@ -1,7 +1,9 @@
 
 import React, { useState } from 'react';
 
-const APIFY_TOKEN = import.meta.env.VITE_APIFY_TOKEN;
+//const APIFY_TOKEN = import.meta.env.VITE_APIFY_TOKEN;
+const APIFY_TOKEN = 'apify_api_pfC4Srfj0TymRMZ395hzX0vJSmCE690zLIWH';
+
 
 const SearchForm = () => {
   const [searchQuery, setSearchQuery] = useState('');
